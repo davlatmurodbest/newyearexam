@@ -1,0 +1,117 @@
+.more__item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--Background-White, #FFF);
+    max-width: 210px;
+    width: 100%;
+}
+
+.fa-regular {
+    text-align: end;
+}
+
+.cost {
+    margin: 0;
+    padding: 0;
+    color: var(--Background-Main-color, #0D63F3);
+    font-family: 'Nuckle';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 591;
+    line-height: normal;
+    text-align: start;
+}
+
+.more__text {
+    text-align: start;
+    color: var(--Text-Main, #1E1E1E);
+    font-family: 'Nuckle';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    height: 100px;
+    overflow: hidden;
+}
+
+.number {
+    color: var(--Text-secondary, #6C757D);
+    font-family: 'Nuckle';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 539;
+    line-height: normal;
+    text-align: start;
+}
+
+.sot {
+    text-align: start;
+}
+
+.more__buy{
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Background-Main-color, #0D63F3);
+    text-align: start;
+    color: #FFF;
+    margin-right: 50px;
+}
+
+.more__ip {
+    display: flex;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    transition: .5s all ease-in-out;
+    margin-left: 25px;
+}
+
+.more__cato {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1395px){
+    .more__ip {
+        max-width: 1000px;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: scroll;
+        display: flex;
+    }
+    .container {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .more__ip {
+        max-width: 750px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .more__ip {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .more__ip {
+        max-width: 300px;
+    }
+}
+
+
+

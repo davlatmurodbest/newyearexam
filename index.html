@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="visually-hidden">Welcome to Shop</h1>
+            <button class="tem" type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#" class="header__logo">
+                <img src="./img/Logo.png" alt="logo" class="logo__pic">
+            </a>
+            <button class="cato__btn">
+                <img src="./img/katalog.svg" alt="cato" class="cato__pic">
+                <p class="header__text">Katalog</p>
+            </button>
+            <input type="search" class="search__inp" placeholder="Mahsulotni izlash">
+            <button class="like__btn"><i class="fa-regular fa-heart"></i></button>
+            <button class="shop__btn"><i class="fa-solid fa-cart-plus"></i></button>
+            
+            <a href="#" class="enter">Kirish</a>
+
+            <div class="drapdown">
+                <div class="dr__info">
+                    <p class="dr__text"> Davlatmurod </p>
+                    <a href="#" class="exit">Chiqish</a>
+                </div>
+                <a href="#" class="privite"><i class="fa-solid fa-user"></i> Shaxsiy ma'lumotlar</a>
+                <a href="#" class="privite"><i class="fa-solid fa-shop"></i> Mening buyurtmalarim</a>
+                <a href="#" class="privite"><i class="fa-regular fa-heart"></i> Sevimlilar</a>
+                <a href="#" class="privite"><i class="fa-solid fa-location-dot"></i> Manzillar</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal__bg">
+        <div class="modal1">
+            <i class="fa-solid fa-xmark"></i>
+            <h2 class="modal1__head">Hisobga kirish uchun</h2>
+            <button type="button" class="modal__enter">Kirish</button>
+            <p class="or"> Yoki</p>
+            <button type="button" class="register">Ro’yxatdan o’tish</button>
+        </div>
+        <div class="modal1 hoyhoy" >
+            <i class="fa-solid fa-xmark remove"></i>
+            <h2 class="modal1__head">Telefon raqam orqali kirish</h2>
+            <input type="text" placeholder="Telefon raqam" class="modal__num">
+            <input type="password" placeholder="Parol" class="parol">
+            <button type="button" class="modal__enter">Kirish</button>
+            <a href="#" class="pass__link">Parolni unitdingizmi?</a>
+            
+
+        </div>
+        <div class="modal1 voyvoy" >
+            <i class="fa-solid fa-xmark clear"></i>
+            <h2 class="modal1__head">Telefon raqam kiriting</h2>
+            <input type="text" placeholder="+ 998 9* *** ** **" class="modal__num">
+            <button type="button" class="modal__enter">Kodni qabul qilish</button>
+            
+        </div>
+    </div>
+
+
+   <main class="main">
+        <section class="cato">
+            <div class="container">
+                <h2 class="cato__heading">Kategoriyalar</h2>
+                <div class="cato__ip">
+                    <template class="hidden">
+                        <div class="cato__item">
+                            <img class="cato__pic" src="https://image.tmdb.org/t/p/w500/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg"
+                                alt="smart" width="136" height="136">
+                            <h3 class="cato__h3">Smartfonlar</h3>
+                        </div>
+                    </template>
+                </div>
+                <button class="cato__more">
+                    Batafsil
+                </button>
+            </div>
+        </section>
+        <section class="more">
+            <div class="container ">
+                <h3 class="more__heading">Eng ko’p sotilgan</h3>
+                <div class="more__ip body">
+                    <template class="hello">
+                        <div class="more__item">
+                            <i class="fa-regular fa-heart"></i>
+                            <img src="./img/image15.png" alt="img" class="more__pic" width="180" height="180">
+                            <p class="cost">923742784 som</p>
+                            <p class="more__text">Apple Airpods Pro <br>simsiz quloqchin , Oq rangda </p>
+                            <p class="number">1230 ta buyurtma</p>
+                            <div class="sot">
+                                <button type="button" class="more__buy">Sotib olish</button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+                <button class="cato__more more__cato">
+                    Ko’proq ko’rish
+                </button>
+            </div>
+        </section>
+         <section class="brend">
+            <div class="container">
+                <h4 class="brend__name">Brendlar bo'yicha</h4>
+                <div class="brend__ip">
+                    <template>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg" alt=""
+                            class="brend__phot" width="100" height="100">
+                    </template>
+                </div>
+        </section>
+        <section class="magazin">
+            <div class="container">
+                <h4 class="mag__name">Magazinlar bo'yicha</h4>
+                <div class="magaz__ip">
+                    <template>
+                        <img src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg" alt=""
+                            class="mag__phot" width="80" height="50">
+                    </template>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="doc">
+                <h5 class="footer__name">Hujjatlar</h5>
+                <a href="#" class="footer__link">Umumiy shartlar</a>
+                <a href="#" class="footer__link">Ofertalar arxivi</a>
+                <a href="#" class="footer__link">Nizom</a>
+                <a href="#" class="footer__link">Guvohnoma</a>
+            </div>
+
+            <div class="doc">
+                <h5 class="footer__name">Servis</h5>
+                <a href="#" class="footer__link">Do'konlar</a>
+                <a href="#" class="footer__link">Biz haqimizda</a>
+                <a href="#" class="footer__link">Hamkorlik uchun</a>
+                <a href="#" class="footer__link">Qaytarish</a>
+                <a href="#" class="footer__link">Promokodlar</a>
+            </div>
+
+            <div class="doc">
+                <h5 class="footer__name">Mahsulotlar katalogi</h5>
+                <a href="#" class="footer__link">Katalog 1</a>
+                <a href="#" class="footer__link">Katalog 2</a>
+                <a href="#" class="footer__link">Katalog 3</a>
+                <a href="#" class="footer__link">Katalog 4</a>
+                <a href="#" class="footer__link">Katalog 5</a>
+            </div>
+
+            <div class="axbo">
+                <h5 class="footer__name">Axbarot xizmati</h5>
+                <a href="email:contact.@nextstore.uz" class="axbo__email">contact.@nextstore.uz</a>
+                <a href="tel:298347923" class="axbo__tel">+998 97 712 96 96 </a>
+                <a href="tel:298347923" class="axbo__tel">+998 95 503 09 09</a>
+                <p class="axbo__man">
+                    Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston
+                </p>
+                <div class="netgroup">
+                    <a href="#" class="face"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="face"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="face"><i class="fa-solid fa-paper-plane"></i></a>
+                    <a href="#" class="face"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/cato.js"></script>
+    <script src="./js/films.js"></script>
+    <script src="./js/brend.js"></script>
+    <script src="./js/shop.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
